@@ -40,11 +40,6 @@ O sistema não apenas reage, mas planeja a atribuição para atingir metas globa
 *   Suporte exclusivo para chamados em português [13].
 *   Estimativas de tempo de atendimento fixas por categoria [13].
 
-## 🔮 Roadmap (v0.2)
-1.  **Aprendizado Contínuo:** Re-treinamento periódico com feedback humano [14, 15].
-2.  **Reotimização Global:** Uso de *Simulated Annealing* para balanceamento em picos de carga [14, 16].
-3.  **Lógica Fuzzy:** Tratamento de urgência como variável contínua [14].
-4.  **Integração Externa:** Conexão com APIs de helpdesk reais e suporte a anexos [14].
 
 ## 👥 Equipe
 *   Santhiago Chapiewski [1, 4]
