@@ -61,7 +61,7 @@ A aplicação estará disponível em `http://localhost:8501`
 1. Na barra lateral, insira a descrição do chamado
 2. (Opcional) Sobrescreva a categoria prevista
 3. Ajuste o nível de urgência (1-3)
-4. Clique em **Classificar e Rotejar**
+4. Clique em **Classificar e Rotear**
 5. O sistema exibirá:
    - Categoria prevista pelo Naive Bayes
    - Probabilidades de cada categoria
@@ -84,7 +84,7 @@ A aplicação estará disponível em `http://localhost:8501`
 Todos as decisões são registradas em `data/decision_logs.json`. Você pode visualizá-los diretamente ou via interface Streamlit na seção "Logs de Decisão".
 
 ## ⚠️ Limitações da v0.1
-*   Treinado com dataset simulado de aproximadamente 300 tickets [11, 13].
+*   Treinado com um dataset curado enxuto de 15 chamados de exemplo (`data/training_data.csv`); para testes de carga é possível gerar chamados sintéticos via `scripts/generate_dataset.py` [11, 13].
 *   Sem integração nativa com Jira ou Zendesk [13].
 *   Suporte exclusivo para chamados em português [13].
 *   Estimativas de tempo de atendimento fixas por categoria [13].

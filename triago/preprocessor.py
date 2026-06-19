@@ -5,9 +5,9 @@ from typing import Iterable
 DEFAULT_STOP_WORDS = {
     "de", "do", "da", "dos", "das", "e", "o", "a", "os", "as", "um", "uma",
     "para", "por", "com", "sem", "no", "na", "nos", "nas", "em", "que", "se",
-    "ao", "à", "às", "este", "esta", "esses", "essas", "isso", "isso", "isso",
+    "ao", "à", "às", "este", "esta", "esses", "essas", "isso",
     "é", "não", "nao", "foi", "ser", "são", "ja", "já", "mais", "mas", "tambem",
-    "também", "como", "dos", "das", "pelo", "pela", "pelos", "pelas", "me", "minha",
+    "também", "como", "pelo", "pela", "pelos", "pelas", "me", "minha",
 }
 TOKEN_PATTERN = re.compile(r"\b[\wáàâãéèêíïóôõöúüçÁÀÂÃÉÈÊÍÏÓÔÕÖÚÜÇ-]+\b", flags=re.UNICODE)
 

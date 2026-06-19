@@ -40,7 +40,10 @@ def load_decision_logs() -> List[Dict]:
     if not path.exists():
         return []
     with path.open("r", encoding="utf-8") as f:
-        return json.load(f)
+        try:
+            return json.load(f)
+        except json.JSONDecodeError:
+            return []
 
 
 def append_decision_log(entry: Dict) -> None:

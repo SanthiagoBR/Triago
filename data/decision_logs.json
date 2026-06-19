@@ -20,5 +20,49 @@
       "technician_name": "Fernanda"
     },
     "timestamp": null
+  },
+  {
+    "text": "Problema na conexão com a vpn do cliente",
+    "category": "Rede",
+    "urgency": 2,
+    "probabilities": {
+      "Banco de Dados": 0.11357633285160607,
+      "Acesso/Login": 0.12568092814993384,
+      "Rede": 0.5027237125997355,
+      "Hardware": 0.13233809824879084,
+      "Financeiro": 0.12568092814993384
+    },
+    "technician": "João",
+    "metrics": {
+      "score": 0.0,
+      "estimated_wait": 0,
+      "specialty_penalty": 0.0,
+      "overload_penalty": 0.0,
+      "queue_length": 0,
+      "technician_name": "João"
+    },
+    "timestamp": "2026-06-19T23:43:17.602671+00:00"
+  },
+  {
+    "text": "Problema na conexão com a vpn do cliente",
+    "category": "Rede",
+    "urgency": 2,
+    "probabilities": {
+      "Banco de Dados": 0.11357633285160607,
+      "Acesso/Login": 0.12568092814993384,
+      "Rede": 0.5027237125997355,
+      "Hardware": 0.13233809824879084,
+      "Financeiro": 0.12568092814993384
+    },
+    "technician": "Ana",
+    "metrics": {
+      "score": 30.0,
+      "estimated_wait": 0,
+      "specialty_penalty": 30.0,
+      "overload_penalty": 0.0,
+      "queue_length": 0,
+      "technician_name": "Ana"
+    },
+    "timestamp": "2026-06-19T23:44:03.802006+00:00"
   }
 ]

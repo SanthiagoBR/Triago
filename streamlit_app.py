@@ -1,4 +1,4 @@
-import json
+import datetime
 import streamlit as st
 from triago import (
     GreedyRouter,
@@ -13,15 +13,22 @@ from triago import (
 
 
 @st.cache_data
-def load_data():
-    technicians_data = load_technicians()
-    technicians = [Technician(**tech) for tech in technicians_data]
-    category_durations = load_category_durations()
+def load_training_dataset():
+    return load_training_data()
+
+
+# cache_resource (e não cache_data) para que o roteador seja uma única
+# instância persistente: as filas dos técnicos acumulam entre as interações,
+# alimentando o Painel de Monitoramento.
+@st.cache_resource
+def build_router():
+    technicians = [Technician(**tech) for tech in load_technicians()]
+    return GreedyRouter(technicians, load_category_durations())
+
+
+@st.cache_resource
+def build_classifier():
     training_data = load_training_data()
-    return technicians, category_durations, training_data
-
-
-def build_classifier(training_data):
     classifier = NaiveBayesClassifier(alpha=1.0)
     documents = [row["text"] for row in training_data]
     labels = [row["category"] for row in training_data]
@@ -35,13 +42,13 @@ def main():
         "Sistema conceitual para classificação automática de tickets, roteamento heurístico e auditoria de decisões."
     )
 
-    technicians, category_durations, training_data = load_data()
+    training_data = load_training_dataset()
     if not training_data:
         st.warning("Nenhum dado de treinamento disponível. Verifique data/training_data.csv.")
         return
 
-    classifier = build_classifier(training_data)
-    router = GreedyRouter(technicians, category_durations)
+    classifier = build_classifier()
+    router = build_router()
 
     st.sidebar.header("Configuração de Ticket")
     text = st.sidebar.text_area("Descrição do chamado", height=150)
@@ -50,7 +57,7 @@ def main():
     )
     urgency = st.sidebar.slider("Urgência", 1, 3, 2)
 
-    if st.sidebar.button("Classificar e Rotejar"):
+    if st.sidebar.button("Classificar e Rotear"):
         if not text.strip():
             st.error("Informe a descrição do chamado antes de processar.")
         else:
@@ -65,7 +72,7 @@ def main():
                 "probabilities": probabilities,
                 "technician": technician.name if technician else None,
                 "metrics": metrics,
-                "timestamp": st.session_state.get("timestamp", None),
+                "timestamp": datetime.datetime.now(datetime.timezone.utc).isoformat(),
             }
             append_decision_log(decision)
             st.subheader("Resultado da Triagem")

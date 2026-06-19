@@ -28,7 +28,7 @@ class GreedyRouter:
         self,
         technicians: List[Technician],
         category_durations: Dict[str, float],
-        mismatch_penalty: float = 30.0,
+        mismatch_penalty: float = 120.0,
         overload_penalty_factor: float = 12.0,
     ):
         self.technicians: Dict[str, Technician] = {tech.id: tech for tech in technicians}
@@ -43,7 +43,7 @@ class GreedyRouter:
             "category": category,
             "urgency": urgency,
             "duration_minutes": duration,
-            "created_at": datetime.datetime.utcnow().isoformat() + "Z",
+            "created_at": datetime.datetime.now(datetime.timezone.utc).isoformat(),
         }
 
     def score_candidate(self, technician: Technician, ticket: Dict) -> Dict[str, float]:
@@ -51,7 +51,7 @@ class GreedyRouter:
         estimated_wait = technician.estimated_wait
         specialty_penalty = 0.0 if technician.specialty == ticket["category"] else self.mismatch_penalty
         overload_penalty = max(0, technician.queue_length - 2) * self.overload_penalty_factor
-        score = urgency * (estimated_wait + 10.0) + specialty_penalty + overload_penalty
+        score = urgency * estimated_wait + specialty_penalty + overload_penalty
         if not technician.available:
             score += 100.0
         return {
