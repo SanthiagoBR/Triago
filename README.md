@@ -34,6 +34,55 @@ O sistema não apenas reage, mas planeja a atribuição para atingir metas globa
 *   **Interface:** Streamlit [2, 12].
 *   **Dados:** Estruturas leves em JSON e CSV [2, 12].
 
+## ⚡ Quickstart
+
+### 1. Instalação
+```bash
+# Clone o repositório
+git clone https://github.com/seu-usuario/Triago.git
+cd Triago
+
+# Crie um ambiente virtual (opcional mas recomendado)
+python -m venv .venv
+.venv\Scripts\activate  # Windows
+# source .venv/bin/activate  # Linux/Mac
+
+# Instale as dependências
+pip install -r requirements.txt
+```
+
+### 2. Executar a Interface Web
+```bash
+streamlit run streamlit_app.py
+```
+A aplicação estará disponível em `http://localhost:8501`
+
+### 3. Usar o Sistema
+1. Na barra lateral, insira a descrição do chamado
+2. (Opcional) Sobrescreva a categoria prevista
+3. Ajuste o nível de urgência (1-3)
+4. Clique em **Classificar e Rotejar**
+5. O sistema exibirá:
+   - Categoria prevista pelo Naive Bayes
+   - Probabilidades de cada categoria
+   - Técnico atribuído
+   - Justificativa da heurística de roteamento
+
+### 4. Exemplos de Teste
+```
+"Erro ao conectar no banco de dados durante backup"
+→ Categoria: Banco de Dados | Atribuição: Ana
+
+"Servidor de rede está lento e desconectando"
+→ Categoria: Rede | Atribuição: João
+
+"Não consigo acessar o sistema, usuário e senha rejeitados"
+→ Categoria: Acesso/Login | Atribuição: Fernanda
+```
+
+### 5. Inspecionar Logs de Auditoria
+Todos as decisões são registradas em `data/decision_logs.json`. Você pode visualizá-los diretamente ou via interface Streamlit na seção "Logs de Decisão".
+
 ## ⚠️ Limitações da v0.1
 *   Treinado com dataset simulado de aproximadamente 300 tickets [11, 13].
 *   Sem integração nativa com Jira ou Zendesk [13].
