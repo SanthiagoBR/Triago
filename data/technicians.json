@@ -1,0 +1,37 @@
+[
+  {
+    "id": "tech_1",
+    "name": "João",
+    "specialty": "Rede",
+    "queue": [],
+    "available": true
+  },
+  {
+    "id": "tech_2",
+    "name": "Ana",
+    "specialty": "Banco de Dados",
+    "queue": [],
+    "available": true
+  },
+  {
+    "id": "tech_3",
+    "name": "Marcos",
+    "specialty": "Hardware",
+    "queue": [],
+    "available": true
+  },
+  {
+    "id": "tech_4",
+    "name": "Fernanda",
+    "specialty": "Acesso/Login",
+    "queue": [],
+    "available": true
+  },
+  {
+    "id": "tech_5",
+    "name": "Carla",
+    "specialty": "Financeiro",
+    "queue": [],
+    "available": true
+  }
+]
