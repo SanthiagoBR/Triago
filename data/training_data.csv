@@ -1,16 +1,301 @@
 text,category
-"Erro ao conectar no banco de dados durante backup","Banco de Dados"
-"Não consigo acessar o sistema, usuário e senha rejeitados","Acesso/Login"
-"Servidor de rede está lento e desconectando frequentemente","Rede"
-"Computador não liga após queda de energia","Hardware"
-"Solicitação de reembolso não processada no financeiro","Financeiro"
-"Falha na autenticação da VPN corporativa","Rede"
-"Erro de permissão no banco ao executar consulta","Banco de Dados"
-"Trocar senha do usuário temporário","Acesso/Login"
-"HD fazendo barulho estranho e não inicializa","Hardware"
-"Dúvida sobre cobrança indevida no boleto","Financeiro"
-"Conexão Wi-Fi instável em vários setores","Rede"
-"Backup de banco de dados não completou com erro de timeout","Banco de Dados"
-"Tela azul ao iniciar o notebook","Hardware"
-"Usuário não consegue acessar o portal de RH","Acesso/Login"
-"Falha no sistema financeiro ao lançar nota fiscal","Financeiro"
+Fatura do funcionário não disponível para download,Financeiro
+Endereço IP em conflito na rede do segundo andar,Rede
+Autenticação de dois fatores não envia o código ao gerente,Acesso/Login
+Falha no sistema financeiro ao lançar a nota fiscal do vendedor,Financeiro
+Lançamento contábil duplicado nas despesas,Financeiro
+Registros de contrato sumindo da tabela após salvar,Banco de Dados
+Acesso negado ao abrir a pasta do projeto,Acesso/Login
+Conciliação bancária com saldo divergente no faturamento,Financeiro
+Teclado com várias teclas não funcionando na recepção,Hardware
+Erro ao integrar os pagamentos com o portal de pagamentos,Financeiro
+Erro de login único SSO ao entrar no intranet,Acesso/Login
+Liberar permissão de leitura e escrita na pasta compartilhada,Acesso/Login
+Desktop trava e reinicia sozinho ao ligar,Hardware
+Cadastro de novo estagiário no Active Directory,Acesso/Login
+Sem acesso à internet na matriz,Rede
+Conciliação bancária com saldo divergente no fechamento,Financeiro
+O colaborador não consegue acessar o ERP,Acesso/Login
+Fatura do fornecedor não disponível para download,Financeiro
+Backup do banco de dados falhou com erro de memória insuficiente,Banco de Dados
+Disco SSD não é reconhecido pela BIOS do computador,Hardware
+Rede caindo intermitentemente no galpão no horário de pico,Rede
+DNS não resolve os endereços internos da rede do cliente,Rede
+Divergência de valores no relatório de balancete,Financeiro
+Conexão Wi-Fi instável na filial de São Paulo,Rede
+Divergência de valores no relatório de fechamento,Financeiro
+Conexão de rede do gerente caindo toda hora,Rede
+Replicação do banco de dados parou de sincronizar após a manutenção,Banco de Dados
+O colaborador está sem permissão para acessar o sistema,Acesso/Login
+Fonte do PC queimou e não dá mais vídeo,Hardware
+Roteador da filial de São Paulo travando e precisando reiniciar,Rede
+Lançamento contábil duplicado no fechamento,Financeiro
+Espaço em disco do servidor de banco de dados esgotado,Banco de Dados
+Erro de login único SSO ao entrar no portal de RH,Acesso/Login
+Memória RAM com defeito travando o micro,Hardware
+Mouse parou de responder na estação de trabalho,Hardware
+Token de acesso expirado ao usar a API,Acesso/Login
+Sem acesso à internet em todo o setor financeiro,Rede
+Erro de login único SSO ao entrar no painel administrativo,Acesso/Login
+Relatório de faturamento com totais incorretos,Financeiro
+Disco SSD não é reconhecido pela BIOS do PC,Hardware
+Procedure de cliente retorna erro de sintaxe SQL,Banco de Dados
+Erro de integridade referencial ao excluir cliente,Banco de Dados
+Estorno não foi processado para o fornecedor,Financeiro
+Esqueci minha senha e preciso redefinir o acesso ao intranet,Acesso/Login
+Pen drive não é reconhecido em nenhuma porta USB do desktop,Hardware
+Procedure de pedido retorna erro de sintaxe SQL,Banco de Dados
+Servidor de rede lento e desconectando na filial de São Paulo,Rede
+Webcam não é detectada no PC,Hardware
+Firewall bloqueando o acesso ao portal do banco,Rede
+Token de acesso expirado ao usar a pasta compartilhada,Acesso/Login
+DNS não resolve os endereços internos da rede corporativa,Rede
+Liberar permissão de leitura e escrita na API,Acesso/Login
+Solicito trocar a senha do estagiário,Acesso/Login
+Solicitação de reembolso não processada no portal de pagamentos,Financeiro
+Latência alta e perda de pacotes na rede do departamento de RH,Rede
+Fonte do desktop queimou e não dá mais vídeo,Hardware
+Wi-Fi não aparece para conectar no segundo andar,Rede
+Conexão de rede do usuário caindo toda hora,Rede
+Micro não liga após uma atualização,Hardware
+Boleto gerado com valor errado para o vendedor,Financeiro
+Boleto gerado com valor errado para o fornecedor,Financeiro
+Cooler do micro fazendo barulho alto,Hardware
+Solicitação de reembolso não processada no sistema contábil,Financeiro
+Query do relatório de cliente demorando demais para retornar,Banco de Dados
+Laptop superaquecendo e desligando sozinho,Hardware
+Falha ao inserir registro na tabela de pedido,Banco de Dados
+Tela azul ao iniciar o PC,Hardware
+O colaborador está sem permissão para acessar o CRM,Acesso/Login
+Query do relatório de fornecedor demorando demais para retornar,Banco de Dados
+Acesso negado ao abrir a API,Acesso/Login
+Boleto vencido do funcionário precisa ser reemitido,Financeiro
+"Não consigo acessar o CRM, usuário e senha rejeitados",Acesso/Login
+HD do notebook fazendo barulho estranho e não inicializa,Hardware
+Backup do banco de dados falhou com erro de conexão perdida,Banco de Dados
+Webcam não é detectada no micro,Hardware
+Cobrança indevida no boleto do fornecedor,Financeiro
+Velocidade de internet muito abaixo do contratado em todo o setor financeiro,Rede
+Migração de dados duplicou registros de nota fiscal,Banco de Dados
+Bateria do notebook do usuário não carrega mais,Hardware
+Desktop do recepcionista não está ligando,Hardware
+HD do PC fazendo barulho estranho e não inicializa,Hardware
+Proxy impedindo a navegação na filial de São Paulo,Rede
+Novo estagiário precisa de acesso ao e-mail corporativo,Acesso/Login
+Latência alta e perda de pacotes na rede da filial de São Paulo,Rede
+Pagamento do funcionário não foi compensado após o vencimento,Financeiro
+Token de acesso expirado ao usar a unidade de rede,Acesso/Login
+Divergência de valores no relatório de faturamento,Financeiro
+Registros de cliente sumindo da tabela após salvar,Banco de Dados
+O colaborador não consegue acessar o sistema,Acesso/Login
+Computador não liga após uma atualização,Hardware
+Velocidade de internet muito abaixo do contratado na sala de reuniões,Rede
+Esqueci minha senha e preciso redefinir o acesso ao sistema,Acesso/Login
+Computador superaquecendo e desligando sozinho,Hardware
+O funcionário não consegue acessar o intranet,Acesso/Login
+Erro de integridade referencial ao excluir contrato,Banco de Dados
+Erro ao calcular o imposto na emissão da nota,Financeiro
+Memória RAM com defeito travando o PC,Hardware
+Login retornando erro de credenciais inválidas no ERP,Acesso/Login
+Migração de dados duplicou registros de pedido,Banco de Dados
+Computador trava e reinicia sozinho ao ligar,Hardware
+Notebook não liga após queda de energia,Hardware
+Endereço IP em conflito na rede da matriz,Rede
+Cooler do PC fazendo barulho alto,Hardware
+"Não consigo acessar o ERP, usuário e senha rejeitados",Acesso/Login
+Bloqueio de acesso após o estagiário mudar de departamento,Acesso/Login
+Sem acesso à internet na filial de São Paulo,Rede
+A tabela de fornecedor não está salvando o CPF,Banco de Dados
+Latência alta e perda de pacotes na rede da matriz,Rede
+Micro do recepcionista não está ligando,Hardware
+Query do relatório de contrato demorando demais para retornar,Banco de Dados
+Divergência de valores no relatório de despesas,Financeiro
+Monitor do laptop não exibe imagem mesmo com o cabo conectado,Hardware
+O estagiário foi desativado por engano e não consegue entrar,Acesso/Login
+Novo colaborador precisa de acesso ao e-mail corporativo,Acesso/Login
+Conexão com o banco de dados recusada na porta 1433,Banco de Dados
+Conta bloqueada após várias tentativas de login no e-mail corporativo,Acesso/Login
+Solicito trocar a senha do funcionário,Acesso/Login
+O colaborador foi desativado por engano e não consegue entrar,Acesso/Login
+O colaborador está sem permissão para acessar o e-mail corporativo,Acesso/Login
+Cooler do laptop fazendo barulho alto,Hardware
+Autenticação de dois fatores não envia o código ao usuário,Acesso/Login
+Erro ao conectar no banco de dados durante a atualização do sistema,Banco de Dados
+Cadastro de cliente não persiste os dados na tabela,Banco de Dados
+HD do desktop fazendo barulho estranho e não inicializa,Hardware
+Conciliação bancária com saldo divergente no balancete,Financeiro
+Deadlock no banco ao atualizar usuário,Banco de Dados
+Senha expirada e o sistema não deixa cadastrar uma nova,Acesso/Login
+Restauração do backup do banco falhou durante o backup,Banco de Dados
+Proxy impedindo a navegação em todo o setor financeiro,Rede
+Consulta SQL travando e retornando erro de lock de tabela,Banco de Dados
+Restauração do backup do banco falhou durante a atualização do sistema,Banco de Dados
+Novo usuário precisa de acesso ao intranet,Acesso/Login
+Cadastro de nota fiscal não persiste os dados na tabela,Banco de Dados
+Impressora não imprime e pisca a luz de erro,Hardware
+Acesso negado ao abrir a unidade de rede,Acesso/Login
+Acesso remoto por RDP não conecta na estação de trabalho,Rede
+Cobrança indevida no boleto do funcionário,Financeiro
+Boleto gerado com valor errado para o funcionário,Financeiro
+Autenticação de dois fatores não envia o código ao funcionário,Acesso/Login
+Micro do funcionário não está ligando,Hardware
+Nota fiscal não foi emitida para o cliente,Financeiro
+Monitor do notebook não exibe imagem mesmo com o cabo conectado,Hardware
+Nota fiscal não foi emitida para o vendedor,Financeiro
+Tela azul ao iniciar o micro,Hardware
+Internet lenta apenas na filial de São Paulo,Rede
+Conexão Wi-Fi instável no galpão,Rede
+VPN do gerente caiu e não reconecta,Rede
+Falha no sistema financeiro ao lançar a nota fiscal do cliente,Financeiro
+Cobrança duplicada no cartão do vendedor,Financeiro
+Wi-Fi não aparece para conectar no galpão,Rede
+Servidor de rede lento e desconectando no galpão,Rede
+Impossível acessar o servidor de arquivos pela rede no departamento de RH,Rede
+Conexão Wi-Fi instável na sala de reuniões,Rede
+Reembolso aprovado mas não caiu na conta do fornecedor,Financeiro
+Autenticação de dois fatores não envia o código ao estagiário,Acesso/Login
+Proxy impedindo a navegação no galpão,Rede
+"Computador não liga de jeito nenhum, sem nenhuma luz",Hardware
+Erro de integridade referencial ao excluir produto,Banco de Dados
+Cabo de rede sem link na estação de trabalho,Rede
+Cooler do notebook fazendo barulho alto,Hardware
+Tela azul ao iniciar o desktop,Hardware
+Query do relatório de pedido demorando demais para retornar,Banco de Dados
+Proxy impedindo a navegação no departamento de RH,Rede
+Login retornando erro de credenciais inválidas no e-mail corporativo,Acesso/Login
+Falha na autenticação da VPN da empresa,Rede
+Fatura do cliente não disponível para download,Financeiro
+Nota fiscal não foi emitida para o funcionário,Financeiro
+Campo e-mail não é gravado ao cadastrar produto,Banco de Dados
+Perfil do colaborador sem permissão de administrador,Acesso/Login
+Wi-Fi não aparece para conectar na sala de reuniões,Rede
+Conexão de rede do cliente caindo toda hora,Rede
+Fatura do vendedor não disponível para download,Financeiro
+Relatório de fechamento com totais incorretos,Financeiro
+Não recebo o e-mail de recuperação de senha do e-mail corporativo,Acesso/Login
+Reembolso aprovado mas não caiu na conta do vendedor,Financeiro
+Cadastro de produto não persiste os dados na tabela,Banco de Dados
+Erro de login único SSO ao entrar no e-mail corporativo,Acesso/Login
+Registros de nota fiscal sumindo da tabela após salvar,Banco de Dados
+Erro ao salvar registro de contrato no banco de dados,Banco de Dados
+Acesso remoto por RDP não conecta na recepção,Rede
+Micro trava e reinicia sozinho ao ligar,Hardware
+Internet lenta apenas no segundo andar,Rede
+Velocidade de internet muito abaixo do contratado na matriz,Rede
+Backup do banco de dados falhou com erro de lock de tabela,Banco de Dados
+Não recebo o e-mail de recuperação de senha do sistema,Acesso/Login
+Migração de dados duplicou registros de contrato,Banco de Dados
+VPN do usuário caiu e não reconecta,Rede
+Latência alta e perda de pacotes na rede de todo o setor financeiro,Rede
+Disco SSD não é reconhecido pela BIOS do desktop,Hardware
+Wi-Fi não aparece para conectar no departamento de RH,Rede
+Reembolso aprovado mas não caiu na conta do cliente,Financeiro
+Falha no sistema financeiro ao lançar a nota fiscal do funcionário,Financeiro
+Boleto vencido do cliente precisa ser reemitido,Financeiro
+Índice da tabela de cliente corrompido deixando a consulta lenta,Banco de Dados
+Roteador do departamento de RH travando e precisando reiniciar,Rede
+Computador não inicia e fica com a tela preta,Hardware
+Roteador do galpão travando e precisando reiniciar,Rede
+VPN do cliente caiu e não reconecta,Rede
+Relatório de balancete com totais incorretos,Financeiro
+HD do computador fazendo barulho estranho e não inicializa,Hardware
+Estorno não foi processado para o vendedor,Financeiro
+Procedure de fornecedor retorna erro de sintaxe SQL,Banco de Dados
+Falha no sistema financeiro ao lançar a nota fiscal do fornecedor,Financeiro
+Tela azul ao iniciar o notebook,Hardware
+Conta bloqueada após várias tentativas de login no CRM,Acesso/Login
+Esqueci minha senha e preciso redefinir o acesso ao e-mail corporativo,Acesso/Login
+Nota fiscal não foi emitida para o fornecedor,Financeiro
+Query do relatório de usuário demorando demais para retornar,Banco de Dados
+Cabo de rede sem link na máquina do usuário,Rede
+Registros de fornecedor sumindo da tabela após salvar,Banco de Dados
+Cadastro de contrato não persiste os dados na tabela,Banco de Dados
+Lançamento contábil duplicado no faturamento,Financeiro
+Disco SSD não é reconhecido pela BIOS do micro,Hardware
+Sem acesso à internet no galpão,Rede
+"Micro não liga de jeito nenhum, sem nenhuma luz",Hardware
+Servidor de rede lento e desconectando em todo o setor financeiro,Rede
+Erro ao integrar os pagamentos com o sistema contábil,Financeiro
+Teclado com várias teclas não funcionando na estação de trabalho,Hardware
+Deadlock no banco ao atualizar nota fiscal,Banco de Dados
+Notebook não inicia e fica com a tela preta,Hardware
+Computador ligando e desligando sozinho do nada,Hardware
+Fonte do computador queimou e não dá mais vídeo,Hardware
+Solicitação de reembolso não processada no ERP,Financeiro
+Comissão do fornecedor calculada com valor errado,Financeiro
+Índice da tabela de pedido corrompido deixando a consulta lenta,Banco de Dados
+Campo CPF não é gravado ao cadastrar cliente,Banco de Dados
+Falha ao inserir registro na tabela de nota fiscal,Banco de Dados
+Endereço IP em conflito na rede do departamento de RH,Rede
+Índice da tabela de usuário corrompido deixando a consulta lenta,Banco de Dados
+Sessão expira muito rápido e desloga o estagiário,Acesso/Login
+Boleto gerado com valor errado para o cliente,Financeiro
+O colaborador está sem permissão para acessar o intranet,Acesso/Login
+Firewall bloqueando o acesso ao sistema externo,Rede
+Erro ao integrar os pagamentos com o financeiro,Financeiro
+Erro ao salvar registro de pedido no banco de dados,Banco de Dados
+Computador não liga após a limpeza,Hardware
+Campo e-mail não é gravado ao cadastrar cliente,Banco de Dados
+O colaborador não consegue acessar o painel administrativo,Acesso/Login
+Imposto retido em duplicidade na folha de pagamento,Financeiro
+"Não consigo acessar o painel administrativo, usuário e senha rejeitados",Acesso/Login
+Campo telefone não é gravado ao cadastrar nota fiscal,Banco de Dados
+DNS não resolve os endereços internos da rede da empresa,Rede
+Disco SSD não é reconhecido pela BIOS do laptop,Hardware
+"Desktop não liga de jeito nenhum, sem nenhuma luz",Hardware
+Sem acesso à internet no departamento de RH,Rede
+Cadastro de usuário não persiste os dados na tabela,Banco de Dados
+Acesso remoto por RDP não conecta na máquina do usuário,Rede
+Restauração do backup do banco falhou durante a migração,Banco de Dados
+Query do relatório de produto demorando demais para retornar,Banco de Dados
+Mouse parou de responder na máquina do usuário,Hardware
+PC não inicia e fica com a tela preta,Hardware
+Proxy impedindo a navegação na sala de reuniões,Rede
+Backup do banco de dados falhou com erro de timeout,Banco de Dados
+Cobrança indevida no boleto do vendedor,Financeiro
+Cobrança duplicada no cartão do cliente,Financeiro
+Cabo de rede sem link na recepção,Rede
+Query do relatório de nota fiscal demorando demais para retornar,Banco de Dados
+O gerente não consegue acessar o ERP,Acesso/Login
+Restauração do backup do banco falhou durante a manutenção,Banco de Dados
+Conexão de rede do vendedor caindo toda hora,Rede
+Pen drive não é reconhecido em nenhuma porta USB do micro,Hardware
+Notebook não liga após a limpeza,Hardware
+Reembolso aprovado mas não caiu na conta do funcionário,Financeiro
+Login retornando erro de credenciais inválidas no CRM,Acesso/Login
+Erro ao salvar registro de cliente no banco de dados,Banco de Dados
+Sistema financeiro fora do ar para lançamentos,Financeiro
+Pagamento do cliente não foi compensado após o vencimento,Financeiro
+Webcam não é detectada no computador,Hardware
+Mouse parou de responder na recepção,Hardware
+Proxy impedindo a navegação na matriz,Rede
+O usuário não consegue acessar o painel administrativo,Acesso/Login
+Consulta SQL travando e retornando erro de timeout,Banco de Dados
+Pen drive não é reconhecido em nenhuma porta USB do PC,Hardware
+Conciliação bancária com saldo divergente nas despesas,Financeiro
+Wi-Fi não aparece para conectar na filial de São Paulo,Rede
+Migração de dados duplicou registros de fornecedor,Banco de Dados
+Erro de integridade referencial ao excluir nota fiscal,Banco de Dados
+Esqueci minha senha e preciso redefinir o acesso ao ERP,Acesso/Login
+Desktop não liga após queda de energia,Hardware
+Conexão com o banco de dados recusada na porta 3306,Banco de Dados
+Sessão expira muito rápido e desloga o usuário,Acesso/Login
+Comissão do vendedor calculada com valor errado,Financeiro
+Não recebo o e-mail de recuperação de senha do painel administrativo,Acesso/Login
+Boleto vencido do fornecedor precisa ser reemitido,Financeiro
+Cobrança duplicada no cartão do funcionário,Financeiro
+Esqueci minha senha e preciso redefinir o acesso ao portal de RH,Acesso/Login
+Esqueci minha senha e preciso redefinir o acesso ao CRM,Acesso/Login
+Não recebo o e-mail de recuperação de senha do portal de RH,Acesso/Login
+Webcam não é detectada no laptop,Hardware
+Bloqueio de acesso após o funcionário mudar de departamento,Acesso/Login
+Solicitação de reembolso não processada no financeiro,Financeiro
+Restauração do backup do banco falhou durante a queda de energia,Banco de Dados
+Conexão com o banco de dados recusada na porta 5432,Banco de Dados
+Switch de todo o setor financeiro parou e derrubou a rede,Rede
+Perfil do gerente sem permissão de administrador,Acesso/Login
+Notebook ligando e desligando sozinho do nada,Hardware
+Firewall bloqueando o acesso ao servidor da nuvem,Rede
+Estorno não foi processado para o funcionário,Financeiro
+Login retornando erro de credenciais inválidas no intranet,Acesso/Login
+Migração de dados duplicou registros de cliente,Banco de Dados

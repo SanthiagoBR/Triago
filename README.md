@@ -84,7 +84,7 @@ A aplicação estará disponível em `http://localhost:8501`
 Todos as decisões são registradas em `data/decision_logs.json`. Você pode visualizá-los diretamente ou via interface Streamlit na seção "Logs de Decisão".
 
 ## ⚠️ Limitações da v0.1
-*   Treinado com um dataset curado enxuto de 15 chamados de exemplo (`data/training_data.csv`); para testes de carga é possível gerar chamados sintéticos via `scripts/generate_dataset.py` [11, 13].
+*   Treinado com um dataset de ~300 chamados balanceados entre as 5 categorias (`data/training_data.csv`); para testes de carga é possível gerar mais chamados sintéticos via `scripts/generate_dataset.py` [11, 13].
 *   Sem integração nativa com Jira ou Zendesk [13].
 *   Suporte exclusivo para chamados em português [13].
 *   Estimativas de tempo de atendimento fixas por categoria [13].

@@ -58,3 +58,11 @@ class NaiveBayesClassifier:
     def predict(self, text: str) -> str:
         probabilities = self.predict_log_proba(text)
         return max(probabilities, key=probabilities.get)
+
+    def coverage(self, text: str) -> tuple[int, int]:
+        """Retorna (tokens reconhecidos, total de tokens) — mede o quanto da
+        frase o modelo de fato conhece. Cobertura baixa => previsão pouco
+        confiável (palavras fora do vocabulário de treino)."""
+        tokens = list(self.preprocessor.text_to_token_counts(text).keys())
+        known = sum(1 for token in tokens if token in self.vocabulary)
+        return known, len(tokens)
